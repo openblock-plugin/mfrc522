@@ -1,0 +1,3 @@
+[submodule "libraries/MFRC522"]
+	path = libraries/MFRC522
+	url = https://github.com/miguelbalboa/rfid.git
