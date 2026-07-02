@@ -6,7 +6,7 @@ export default Blockly => {
     const secondaryColour = '#D9006C';
 
     const digitalPins = Blockly.Device.getPinOptions('arduino_pin_setDigitalOutput');
-    
+
     const getTypeMenu = () => [
         [Blockly.Msg.MFRC522_DATATYPE_NUBMER, 'number'],
         [Blockly.Msg.MFRC522_DATATYPE_STRING, 'string']

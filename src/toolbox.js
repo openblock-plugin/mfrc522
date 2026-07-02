@@ -1,8 +1,7 @@
 /* eslint-disable func-style */
 /* eslint-disable max-len */
 /* eslint-disable require-jsdoc */
-export default () => {
-    return `
+export default () => `
 <category name="%{BKY_MFRC522_CATEGORY}" id="MFRC522_CATEGORY" colour="#F00078" secondaryColour="#D9006C">
     <block type="mfrc522_init" id="mfrc522_init">
         <field name="SDA">2</field>
@@ -98,4 +97,3 @@ export default () => {
     </block>
     <block type="mfrc522_halt" id="mfrc522_halt"></block>
 </category>`;
-};
